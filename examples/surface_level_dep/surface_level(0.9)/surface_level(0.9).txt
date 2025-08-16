@@ -1,0 +1,42 @@
+surface	schottky=0.8999999999999999	v1
+GaAs	t=100
+
+AlGaAs	t=400	x=0.196
+AlGaAs  t=17.1  x=1
+2{
+    GaAs    t=11.4
+    sheetcharge=1.0e12
+    GaAs    t=11.4
+    AlGaAs  t=17.1  x=1
+}
+
+AlGaAs	t=300   x=0.196
+AlGaAs  t=17.1  x=1
+2{
+    GaAs t=11.4
+    sheetcharge=0.5e12
+    GaAs t=11.4
+    AlGaAs  t=17.1  x=1
+}
+
+AlGaAs	t=900	x=0.196
+GaAs	t=150
+AlGaAs  t=200   x=0.196
+
+200{
+    AlGaAs  t=20    x=1
+    GaAs    t=20
+}
+
+GaAs	t=1000
+GaAs	t=10000 Nd=1e18
+substrate
+fullyionized
+
+v1 0.0
+no holes
+schrodingerstart=1500
+schrodingerstop=2500
+#find quantized states
+temp=4.2K
+dy=2

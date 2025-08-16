@@ -1,0 +1,16 @@
+file_template: "template.txt"
+dir_output: "surface_level_dep"
+path_1d_poisson: "/path/to/1dpoisson.exe"
+log_file: "simulation.log"
+
+constants:
+    - name: temperature
+      value: 4.2
+
+variables:
+    - name: surface_level
+      value:
+        start: 0.5
+        end: 1.0
+        step: 0.1
+      format: "{:.1f}"

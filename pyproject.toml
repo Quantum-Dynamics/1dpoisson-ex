@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "ldpoisson_ex"
+version = "0.1.0"
+description = "1D Poisson extension with Python"
+authors = ["Yunhyeong Jeong <yunhyeon.jeong.s3@dc.tohoku.ac.jp>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+click = "^8.2.1"
+numpy = "^2.3.2"
+scipy = "^1.16.1"
+jinja2 = "^3.1.6"
+pyyaml = "^6.0.2"
+pydantic = "^2.11.7"
+
+[tool.poetry.scripts]
+1dpoisson-ex = "ldpoisson_ex.cli:main"
+
+[tool.poetry.group.dev.dependencies]
+pre-commit = "^4.3.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
