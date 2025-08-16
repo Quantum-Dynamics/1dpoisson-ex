@@ -1,12 +1,18 @@
 # 1D Poisson Extension (ldpoisson-ex)
 
-A Python package for running 1D Poisson simulations with parameter sweeps. This tool automates the execution of 1D Poisson calculations across multiple parameter combinations and provides structured output data handling.
+A Python package for running [1D Poisson](https://www3.nd.edu/~gsnider/) simulations with parameter sweeps. This tool automates the execution of 1D Poisson calculations across multiple parameter combinations and provides structured output data handling.
 
 ## Installation
 
 ### Requirements
 
 - Python 3.12+
+- OS: Windows
+
+### Installing 1D Poisson
+
+1. Download the [1D Poisson executable](https://www3.nd.edu/~gsnider/1D_Poi_PC_b8k_CMD.zip), decompress it, and place it in a suitable directory.
+2. Copy the path to the `1dpoisson.exe` executable (the path will be used in the configuration file).
 
 ### From GitHub (Recommended)
 
