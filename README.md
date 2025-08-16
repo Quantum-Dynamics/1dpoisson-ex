@@ -4,11 +4,34 @@ A Python package for running 1D Poisson simulations with parameter sweeps. This 
 
 ## Installation
 
+### Requirements
+
 - Python 3.12+
 
-### Using pip
+### From GitHub (Recommended)
+
+You can install directly from the GitHub repository:
 
 ```bash
+# Install latest version from main branch
+pip install git+https://github.com/your-username/ldpoisson-ex.git
+
+# Install specific branch or tag
+pip install git+https://github.com/your-username/ldpoisson-ex.git@branch-name
+
+# Install in development mode from GitHub
+pip install -e git+https://github.com/your-username/ldpoisson-ex.git#egg=ldpoisson-ex
+```
+
+### From Source
+
+If you have cloned the repository locally:
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/ldpoisson-ex.git
+cd ldpoisson-ex
+
 # Install from source
 pip install .
 
@@ -16,9 +39,13 @@ pip install .
 pip install -e .
 ```
 
-### Using Poetry (Recommended)
+### Using Poetry (For Development)
 
 ```bash
+# Clone and navigate to repository
+git clone https://github.com/your-username/ldpoisson-ex.git
+cd ldpoisson-ex
+
 # Install dependencies
 poetry install
 
